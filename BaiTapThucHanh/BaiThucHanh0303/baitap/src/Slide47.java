@@ -5,11 +5,11 @@ public class Slide47 {
         int sum = 0;
         int num;
         do {
-            System.out.print("Nhập một số nguyên: ");
+            System.out.print("Bạn hãy nhập một số nguyên: ");
             num = scanner.nextInt();
             sum += num;
         } while (sum <= 100);
 
-        System.out.println("Tổng của các số đã nhập là " + sum + ".");
+        System.out.println("Tổng của các số mà bạn đã nhập là " + sum );
     }
 }
